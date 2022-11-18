@@ -1,0 +1,615 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+li {
+    list-style: none;
+}
+.box {
+    width: 100%;
+    background-color: #f3f5f7;
+}
+.header {
+    width: 1202px;
+    margin: 0 auto;
+    height: 100px;
+    background-image: url(images/学成在线logo.png);
+    background-repeat: no-repeat;
+    background-position: 0px 30px;
+}
+/* logo和文字链接 */
+.header .left {
+    float: left;
+    margin-left: 274px;
+    line-height: 100px;    
+}
+.header .left ul li {
+    display: inline-block;
+}
+.header .left ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+.header .left ul .one {
+    margin-left: 0;
+}
+.header .left ul .two {
+    margin-left: 44px;
+}
+.header .left ul .three {
+    margin-left: 44px;
+}
+/* 搜索框 */
+.search {
+    float: left;
+    width: 412px;
+    height: 40px;
+    margin-left: 95px;
+    margin-top: 30px;
+    border: 2px solid #00a4ff;
+}
+.search .text {
+    width: 360px;
+    height: 37px;
+}
+.search .submit {
+    width: 48px;
+    height: 43px;
+    border-color: #00a4ff;
+    background-image: url(images/fa-search.png);
+    background-position: -2px -1px;
+    
+}
+/* 头像和昵称 */
+.right {
+    /* float: left; */
+}
+.right .touxiang {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-image: url(images/touxiang.png);
+}
+.right p {
+    float: left;
+    margin-top: 38px;
+    margin-left: 6px;
+}
+
+/* 导航栏：大图片区域 */
+.nav {
+    height: 422px;
+    background-color: green;
+    background-image: url(images/daohang.png);
+    background-repeat: no-repeat;
+    background-position: -172px 0px;
+}
+.nav .left {
+    float: left;
+    width: 190px;
+    height: 421px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 165px;
+    
+}
+.nav .left a {
+    display: inline-block;
+    width: 190px;
+    font-size: 14px;
+    color: #fff;
+    background-image: url(images/daYuHao.png);
+    background-repeat: no-repeat;
+    background-position: 140px 20px;
+}
+
+.nav .left li {
+    line-height: 45px;
+    margin-left: 20px;
+    
+}
+.nav .left a:hover {
+    color: #00b4ff;
+}
+/* 课程表 */
+.nav .right {
+    float: left;
+    width: 230px;
+    height: 300px;
+    background-color: #fff;
+    margin-left: 820px;
+    margin-top: 50px;
+}
+.nav .right h3 {
+    font-size: 18px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    background-color: #9bceea;
+}
+
+.nav .right .one {
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 193px;
+    height: 50px;
+    border-bottom: 1px solid #a5a5a5;
+}
+.nav .right .l {
+    font-size: 16px;
+}
+.nav .right .r {
+    font-size: 14px;
+}
+.nav .right .b {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.nav .right .b-box {
+    width: 187px;
+    height: 40px;
+    border: 3px solid #9bceea;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.nav .right .b-box a {
+    line-height: 40px;
+    margin-left: 57px;
+    color: #26abff;
+    font-weight: 700;
+}
+
+/* 精品推荐 */
+.jingPin {
+    width: 1202px;
+    height: 60px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-left: 165px;
+    margin-top: 8px;
+}
+.jingPin ul li {
+    float: left;
+    width: 100px;
+    height: 20px;
+    margin-left: 34px;
+    margin-top: 18px;
+    border-right: 2px solid #bfbfbf;
+}
+.jingPin ul li a:hover {
+    color: #26abff;
+}
+.jingPin .last {
+    font-size: 14px;
+    border-right: 0px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.jingPin .last a {
+    color: #26abff;
+}
+
+
+/* <!-- 精品推荐-查看全部 --> */
+.jing {
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 36px;
+    /* background-color: pink; */
+    overflow: hidden;
+}
+.jing .left {
+    float: left;
+    font-size: 20px;
+}
+.jing .right {
+    border-top: 9px;
+    margin-left: 1025px;
+}
+
+/* <!-- 内容1 第一个盒子--> */
+.bodyOne {
+    overflow: hidden;
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bodyOne ul li {
+    float: left;
+    width: 220px;
+    height: 271px;
+    background-color: #fff;
+    margin-left: 18px;
+}
+.bodyOne .one {
+    background-image: url(images/one.png);
+    background-repeat: no-repeat;
+    background-position: -12px 0px;
+    overflow: hidden;
+    margin-left: 0;
+}
+.bodyOne .one a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.bodyOne .one .bottom {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.bodyOne .one .left {
+    color: #ff7c2d;
+}
+.bodyOne .one .right {
+    color: #999999;
+}
+/* <!-- 内容1 第二个盒子--> */
+.bodyOne {
+    overflow: hidden;
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bodyOne ul li {
+    float: left;
+    width: 220px;
+    height: 271px;
+    background-color: #fff;
+    margin-left: 18px;
+}
+.bodyOne .two {
+    background-image: url(images/two.png);
+    background-repeat: no-repeat;
+    background-position: -7px 0px;
+    overflow: hidden;
+}
+.bodyOne .two a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.bodyOne .two .bottom {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.bodyOne .two .left {
+    color: #ff7c2d;
+}
+.bodyOne .two .right {
+    color: #999999;
+}
+
+/* <!-- 内容1 第三个盒子--> */
+.bodyOne {
+    overflow: hidden;
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bodyOne ul li {
+    float: left;
+    width: 220px;
+    height: 271px;
+    background-color: #fff;
+    margin-left: 18px;
+}
+.bodyOne .three {
+    background-image: url(images/three.png);
+    background-repeat: no-repeat;
+    background-position: -7px 0px;
+    overflow: hidden;
+}
+.bodyOne .three a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.bodyOne .three .bottom {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.bodyOne .three .left {
+    color: #ff7c2d;
+}
+.bodyOne .three .right {
+    color: #999999;
+}
+
+/* <!-- 内容1 第四个盒子--> */
+.bodyOne {
+    overflow: hidden;
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bodyOne ul li {
+    float: left;
+    width: 220px;
+    height: 271px;
+    background-color: #fff;
+    margin-left: 18px;
+}
+.bodyOne .four {
+    background-image: url(images/four.png);
+    background-repeat: no-repeat;
+    background-position: -7px 0px;
+    overflow: hidden;
+}
+.bodyOne .four a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.bodyOne .four .bottom {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.bodyOne .four .left {
+    color: #ff7c2d;
+}
+.bodyOne .four .right {
+    color: #999999;
+}
+
+/* <!-- 内容1 第五个盒子--> */
+.bodyOne {
+    overflow: hidden;
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bodyOne ul li {
+    float: left;
+    width: 220px;
+    height: 271px;
+    background-color: #fff;
+    margin-left: 18px;
+}
+.bodyOne .five {
+    background-image: url(images/five.png);
+    background-repeat: no-repeat;
+    background-position: -7px 0px;
+    overflow: hidden;
+}
+.bodyOne .five a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.bodyOne .five .bottom {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.bodyOne .five .left {
+    color: #ff7c2d;
+}
+.bodyOne .five .right {
+    color: #999999;
+}
+
+/* ---------------内容2-------------- */
+/* <!-- 内容1 第一个盒子--> */
+.bodyTwo {
+    overflow: hidden;
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bodyTwo ul li {
+    float: left;
+    width: 220px;
+    height: 271px;
+    background-color: #fff;
+    margin-left: 18px;
+}
+.bodyTwo .one {
+    background-image: url(images/one.png);
+    background-repeat: no-repeat;
+    background-position: -12px 0px;
+    overflow: hidden;
+    margin-left: 0;
+}
+.bodyTwo .one a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.bodyTwo .one .bottom {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.bodyTwo .one .left {
+    color: #ff7c2d;
+}
+.bodyTwo .one .right {
+    color: #999999;
+}
+/* <!-- 内容1 第二个盒子--> */
+.bodyTwo {
+    overflow: hidden;
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bodyTwo ul li {
+    float: left;
+    width: 220px;
+    height: 271px;
+    background-color: #fff;
+    margin-left: 18px;
+}
+.bodyTwo .two {
+    background-image: url(images/two.png);
+    background-repeat: no-repeat;
+    background-position: -7px 0px;
+    overflow: hidden;
+}
+.bodyTwo .two a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.bodyTwo .two .bottom {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.bodyTwo .two .left {
+    color: #ff7c2d;
+}
+.bodyTwo .two .right {
+    color: #999999;
+}
+
+/* <!-- 内容1 第三个盒子--> */
+.bodyTwo {
+    overflow: hidden;
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bodyTwo ul li {
+    float: left;
+    width: 220px;
+    height: 271px;
+    background-color: #fff;
+    margin-left: 18px;
+}
+.bodyTwo .three {
+    background-image: url(images/three.png);
+    background-repeat: no-repeat;
+    background-position: -7px 0px;
+    overflow: hidden;
+}
+.bodyTwo .three a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.bodyTwo .three .bottom {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.bodyTwo .three .left {
+    color: #ff7c2d;
+}
+.bodyTwo .three .right {
+    color: #999999;
+}
+
+/* <!-- 内容1 第四个盒子--> */
+.bodyTwo {
+    overflow: hidden;
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bodyTwo ul li {
+    float: left;
+    width: 220px;
+    height: 271px;
+    background-color: #fff;
+    margin-left: 18px;
+}
+.bodyTwo .four {
+    background-image: url(images/four.png);
+    background-repeat: no-repeat;
+    background-position: -7px 0px;
+    overflow: hidden;
+}
+.bodyTwo .four a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.bodyTwo .four .bottom {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.bodyTwo .four .left {
+    color: #ff7c2d;
+}
+.bodyTwo .four .right {
+    color: #999999;
+}
+
+/* <!-- 内容1 第五个盒子--> */
+.bodyTwo {
+    overflow: hidden;
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bodyTwo ul li {
+    float: left;
+    width: 220px;
+    height: 271px;
+    background-color: #fff;
+    margin-left: 18px;
+}
+.bodyTwo .five {
+    background-image: url(images/five.png);
+    background-repeat: no-repeat;
+    background-position: -7px 0px;
+    overflow: hidden;
+}
+.bodyTwo .five a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+.bodyTwo .five .bottom {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.bodyTwo .five .left {
+    color: #ff7c2d;
+}
+.bodyTwo .five .right {
+    color: #999999;
+}
